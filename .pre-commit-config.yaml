@@ -20,7 +20,7 @@ repos:
         args: [--py310-plus]
 
   - repo: https://github.com/pycqa/isort
-    rev: 8.0.1
+    rev: 9.0.1
     hooks:
       - id: isort
 
@@ -37,7 +37,7 @@ repos:
         args: [--max-line-length=110]
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.20.1
+    rev: v2.3.1
     hooks:
       - id: mypy
 
